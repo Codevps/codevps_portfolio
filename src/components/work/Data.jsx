@@ -21,8 +21,9 @@ export const projectsData = [
     image: codevps,
     title: "Codevps Portfolio Website",
     category: "CLIENT_SIDE",
-    links: "https://codevps_portfolio.netlify.app/",
+    links: "https://codevps-portfolio.vercel.app/",
   },
+
   {
     id: 3,
     image: konnect,
