@@ -6,6 +6,7 @@ import lyriks from "../../assets/lyriks.png";
 import reelscps from "../../assets/reelscps.png";
 import rosa from "../../assets/rosa.png";
 import snappy from "../../assets/snappy.png";
+import whatsapp2 from "../../assets/whatsapp2.png";
 
 export const projectsData = [
   {
@@ -45,7 +46,7 @@ export const projectsData = [
   },
   {
     id: 6,
-    image: "",
+    image: whatsapp2,
     title: "WhatsappClone",
     category: "Full_Stack",
     links: "https://github.com/Codevps/WhatsappClone",
