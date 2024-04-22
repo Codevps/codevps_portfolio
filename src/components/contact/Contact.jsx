@@ -1,24 +1,30 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import Toast from "./Toast";
 
 const Contact = () => {
+  const [toast, setToast] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm(
       "service_g9hcg9d",
       "template_co9m4cb",
       form.current,
       "6B8GLrTz64UYEbMOu"
     );
+    setToast(true);
     e.target.reset();
+    setTimeout(() => setToast(false), 5000);
   };
 
   return (
     <section className="contact section" id="contact">
+      {toast && (
+        <Toast message="Email sent successfully!" setToast={setToast} />
+      )}
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact Me</span>
 
@@ -86,6 +92,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -96,6 +103,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
@@ -107,6 +115,7 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your Query"
+                required
               ></textarea>
             </div>
 
