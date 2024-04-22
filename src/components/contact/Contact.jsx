@@ -9,10 +9,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_78vvvcn",
-      "template_hwqx4jm",
+      "service_g9hcg9d",
+      "template_co9m4cb",
       form.current,
-      "7I64h34u3UhJnNGIH"
+      "6B8GLrTz64UYEbMOu"
     );
     e.target.reset();
   };
@@ -102,7 +102,7 @@ const Contact = () => {
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Query</label>
               <textarea
-                name="project"
+                name="query"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
