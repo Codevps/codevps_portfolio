@@ -15,22 +15,15 @@ const Frontend = () => {
           <Data skill="Css" />
           <Data skill="JavaScript" />
           <Data skill="BootStrap" />
-          <Data skill="React Js" />
           <Data skill="Material Ui" />
-          <Data skill="Socket.io" />
-          <Data skill="Multer" />
         </div>
 
         <div className="skills__group">
-          <Data skill="Next Js" />
-          <Data skill="Git" />
-          <Data skill="Wavesurfer" />
-          <Data skill="Rapid" />
-          <Data skill="Shazam" />
-          <Data skill="Postman" />
           <Data skill="Tailwind Css" />
-          <Data skill="Sanity.io" />
-          <Data skill="FireBase" />
+          <Data skill="React Js" />
+          <Data skill="TypeScript" />
+          <Data skill="Next Js" />
+          <Data skill="Multer" />
         </div>
       </div>
     </div>

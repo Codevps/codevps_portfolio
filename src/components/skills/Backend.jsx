@@ -14,15 +14,12 @@ const Backend = () => {
           <Data skill="Node Js" />
           <Data skill="Mongo DB" />
           <Data skill="Express" />
-          <Data skill="JWT Auth" />
         </div>
 
         <div className="skills__group">
           <Data skill="PostgreSql" />
-          <Data skill="Rest Api" />
-          <Data skill="Prisma" />
-          <Data skill="Sanity.io" />
-          <Data skill="Socket.io" />
+          <Data skill="MySQL" />
+          <Data skill="FireBase" />
         </div>
       </div>
     </div>

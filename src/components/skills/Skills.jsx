@@ -1,4 +1,5 @@
 import React from "react";
+import Api from "./Api.jsx";
 import Backend from "./Backend";
 import Frontend from "./Frontend";
 import Others from "./Others.jsx";
@@ -12,6 +13,7 @@ const Skills = () => {
 
       <div className="skills__container container grid">
         <Frontend />
+        <Api />
         <Backend />
         <Others />
       </div>
