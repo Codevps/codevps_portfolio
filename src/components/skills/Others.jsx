@@ -4,7 +4,11 @@ import Data from "./Data2.jsx";
 const Others = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Core Skills</h3>
+      <h3 className="skills__title">
+        Core Subjects
+        <br />
+        <span className="skills__level">Theory Subjects</span>
+      </h3>
       <div className="skills__box">
         <div className="skills__group">
           <Data skill="DSA" />
@@ -17,6 +21,24 @@ const Others = () => {
         <div className="skills__group">
           <Data skill="CN" />
           <Data skill="CP" />
+        </div>
+      </div>
+      <h3 className="skills__title" style={{ paddingTop: "1.2rem" }}>
+        Deployment Tools
+        <br />
+        <span className="skills__level">Worked with</span>
+      </h3>
+      <div className="skills__box">
+        <div className="skills__group">
+          <Data skill="Netlify" />
+          <Data skill="Docker" />
+        </div>{" "}
+        <div className="skills__group">
+          <Data skill="Vercel" />
+          <Data skill="Kubernetes" />
+        </div>
+        <div className="skills__group">
+          <Data skill="Github" />
         </div>
       </div>
     </div>
