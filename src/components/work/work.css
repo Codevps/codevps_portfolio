@@ -31,6 +31,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  position: relative;
 }
 
 .work__img {
@@ -53,20 +54,34 @@
   column-gap: 0.25rem;
 }
 
+
+
+
 .work__button-icon {
   font-size: 1rem;
   transition: 0.4s;
 }
 
-.work__button:hover .work__button-icon {
-  transform: translateX(0.25rem);
+
+.work__card:hover .work__button-icon {
+  animation: moveIcon 0.95s infinite alternate; 
+}
+
+@keyframes moveIcon {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0.25rem);
+  }
+}
+
+.work__card:hover {
+  box-shadow: 0 0 5px gray; 
 }
 
 /* active work */
-.active-work {
-  background-color: var(--title-color);
-  color: var(--container-color);
-}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
