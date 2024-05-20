@@ -22,6 +22,7 @@ const Api = () => {
           <Data skill="Sanity.io" />
           <Data skill="Socket.io" />
           <Data skill="Prisma" />
+          <Data skill="AppWrite" />
         </div>
       </div>
     </div>

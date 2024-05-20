@@ -16,6 +16,7 @@ const Frontend = () => {
           <Data skill="JavaScript" />
           <Data skill="BootStrap" />
           <Data skill="Material Ui" />
+          <Data skill="React Native" />
         </div>
 
         <div className="skills__group">
