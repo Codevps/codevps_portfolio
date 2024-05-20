@@ -16,7 +16,7 @@ const Qualification = () => {
         <br />
         BE in EXTC & Honors in AIML
         <br />
-        <b>Self taught WebDev and C++Programmer</b>
+        <b>Self taught Full Stack Web & App and C++ Programmer</b>
       </span>
 
       <div className="qualification__container container">

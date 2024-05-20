@@ -24,7 +24,6 @@ export const projectsData = [
     category: "CLIENT_SIDE",
     links: "https://codevps-portfolio.vercel.app/",
   },
-
   {
     id: 3,
     image: konnect,
@@ -47,13 +46,6 @@ export const projectsData = [
     links: "https://foody01.vercel.app/home",
   },
   {
-    id: 6,
-    image: whatsapp2,
-    title: "WhatsappClone",
-    category: "Full_Stack",
-    links: "https://github.com/Codevps/WhatsappClone",
-  },
-  {
     id: 7,
     image: reelscps,
     title: "Reels.cps",
@@ -66,6 +58,13 @@ export const projectsData = [
     title: "Snappy Chat",
     category: "Full_Stack",
     links: "https://snappy-chat-app-tau.vercel.app/",
+  },
+  {
+    id: 6,
+    image: whatsapp2,
+    title: "WhatsappClone",
+    category: "Full_Stack",
+    links: "https://github.com/Codevps/WhatsappClone",
   },
   {
     id: 9,

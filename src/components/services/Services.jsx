@@ -18,7 +18,8 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              FrontEnd <br /> Developer
+              Full-Stack Web
+              <br /> Development
             </h3>
           </div>
 
@@ -160,7 +161,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              BackEnd <br /> Developer
+              Full_Stack App <br /> Development
             </h3>
           </div>
 
