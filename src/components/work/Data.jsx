@@ -7,6 +7,7 @@ import reelscps from "../../assets/reelscps.png";
 import rosa from "../../assets/rosa.png";
 import snappy from "../../assets/snappy.png";
 import whatsapp2 from "../../assets/whatsapp2.png";
+import sora from "../../assets/sora.png";
 
 export const projectsData = [
   {
@@ -72,6 +73,13 @@ export const projectsData = [
     title: "Rosa",
     category: "CLIENT_SIDE",
     links: "https://github.com/Codevps/Rosa",
+  },
+  {
+    id: 10,
+    image: sora,
+    title: "Sora",
+    category: "Full_Stack",
+    links: "https://github.com/Codevps/Sora",
   },
 ];
 
