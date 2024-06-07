@@ -8,6 +8,8 @@ import rosa from "../../assets/rosa.png";
 import snappy from "../../assets/snappy.png";
 import whatsapp2 from "../../assets/whatsapp2.png";
 import sora from "../../assets/sora.png";
+import store from "../../assets/borcelle_admin.png";
+import admin from "../../assets/borcelle_store.png";
 
 export const projectsData = [
   {
@@ -16,6 +18,20 @@ export const projectsData = [
     title: "Ekveera Pet Care Center",
     category: "CLIENT_SIDE",
     links: "https://ekveerapetcarecenter.netlify.app/",
+  },
+  {
+    id: 11,
+    image: store,
+    title: "Borcelle Store",
+    category: "FULL_STACK",
+    links: "https://ecomstore-codevps-projects.vercel.app/",
+  },
+  {
+    id: 12,
+    image: admin,
+    title: "Borcelle Store",
+    category: "FULL_STACK",
+    links: "https://ecom-admin-codevps-projects.vercel.app/",
   },
   {
     id: 2,
