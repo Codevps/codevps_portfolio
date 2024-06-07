@@ -8,8 +8,8 @@ import rosa from "../../assets/rosa.png";
 import snappy from "../../assets/snappy.png";
 import whatsapp2 from "../../assets/whatsapp2.png";
 import sora from "../../assets/sora.png";
-import store from "../../assets/borcelle_admin.png";
-import admin from "../../assets/borcelle_store.png";
+import admin from "../../assets/borcelle_admin.png";
+import store from "../../assets/borcelle_store.png";
 
 export const projectsData = [
   {
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: 12,
     image: admin,
-    title: "Borcelle Store",
+    title: "Borcelle Admin",
     category: "FULL_STACK",
     links: "https://ecom-admin-codevps-projects.vercel.app/",
   },
