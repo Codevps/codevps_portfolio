@@ -18,7 +18,7 @@ const About = () => {
 
           <p className="about__description">
             Full Stack Developer, I have freelanced and also created many
-            projects, I have 1 year of experience and many clients are happy
+            projects, I have 6 months of experience and many clients are happy
             with the projects carried out.
           </p>
 

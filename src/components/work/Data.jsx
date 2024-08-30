@@ -16,8 +16,8 @@ export const projectsData = [
     id: 1,
     image: ekveera,
     title: "Ekveera Pet Care Center",
-    category: "CLIENT_SIDE",
-    links: "https://ekveerapetcarecenter.netlify.app/",
+    category: "FULL_STACK",
+    links: "https://ekveerapetcarecenter.vercel.app/",
   },
   {
     id: 11,

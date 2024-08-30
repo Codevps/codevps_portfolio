@@ -13,13 +13,12 @@ const Backend = () => {
         <div className="skills__group">
           <Data skill="Node Js" />
           <Data skill="Mongo DB" />
-          <Data skill="Express" />
+          <Data skill="Mongoose" />
         </div>
 
         <div className="skills__group">
-          <Data skill="PostgreSql" />
+          <Data skill="Express" />
           <Data skill="MySQL" />
-          <Data skill="FireBase" />
         </div>
       </div>
     </div>

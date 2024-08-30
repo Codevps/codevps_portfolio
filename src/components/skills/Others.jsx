@@ -31,11 +31,9 @@ const Others = () => {
       <div className="skills__box">
         <div className="skills__group">
           <Data skill="Netlify" />
-          <Data skill="Docker" />
         </div>{" "}
         <div className="skills__group">
           <Data skill="Vercel" />
-          <Data skill="Kubernetes" />
         </div>
         <div className="skills__group">
           <Data skill="Github" />
