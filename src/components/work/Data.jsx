@@ -9,6 +9,7 @@ import snappy from "../../assets/snappy.png";
 import whatsapp2 from "../../assets/whatsapp2.png";
 import sora from "../../assets/sora.png";
 import admin from "../../assets/borcelle_admin.png";
+import bookStore from "../../assets/bookStore.png";
 import store from "../../assets/borcelle_store.png";
 
 export const projectsData = [
@@ -18,6 +19,13 @@ export const projectsData = [
     title: "Ekveera Pet Care Center",
     category: "FULL_STACK",
     links: "https://ekveerapetcarecenter.vercel.app/",
+  },
+  {
+    id: 13,
+    image: bookStore,
+    title: "Book Store",
+    category: "FULL_STACK",
+    links: "https://book-store-ten-inky.vercel.app/",
   },
   {
     id: 11,
